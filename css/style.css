@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 300px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.logo img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a:hover {
+    background-color: red;
+}
+
+main {
+    display: flex;
+    flex-direction: column
+}
+
+.contenedor-1 {
+    background-image: url(../images/pizza-2.jpg);
+    background-size: cover;
+    height: 300px;
+    padding: 10px;
+}
+
+.contenedor-1 div {
+    background-color: gray;
+}
+
+.contenedor-2 {
+    background-image: url(../images/combo_familiar.jpeg);
+    background-size: cover;
+    height: 300px;
+    padding: 10px;
+}
+
+.contenedor-2 div {
+    background-color: gray;
+}
+
+.contenedor-3 {
+    background-image: url(../images/postres.jpeg);
+    background-size: cover;
+    height: 300px;
+    padding: 10px;
+}
+
+.contenedor-3 div {
+    background-color: gray;
+}
+
+@media (max-width: 270px) {
+    nav ul li a {
+        font-size: 10px;
+    }
+}
